@@ -18,7 +18,15 @@ class HomeController extends Controller
     }
 
     /**
-     * @return \
+     * @return \Illuminate\View\View
+     */
+    public function donate()
+    {
+        return view('frontend.donate');
+    }
+
+    /**
+     * @return \Illuminate\View\View
      */
     public function policies()
     {
