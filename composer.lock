@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03bbf71962dc0e2f669855d018f47ff1",
+    "content-hash": "22b477beda0ad558333d3b739805cda3",
     "packages": [
         {
             "name": "albertcht/invisible-recaptcha",
@@ -5044,6 +5044,55 @@
                 "maxmind"
             ],
             "time": "2019-10-30T15:41:29+00:00"
+        },
+        {
+            "name": "tsaiyihua/laravel-ecpay",
+            "version": "2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tsaiyihua/laravel-ecpay.git",
+                "reference": "7c55dc8063670c76b46a91eb6d0764587a757a37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tsaiyihua/laravel-ecpay/zipball/7c55dc8063670c76b46a91eb6d0764587a757a37",
+                "reference": "7c55dc8063670c76b46a91eb6d0764587a757a37",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^6.0",
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "TsaiYiHua\\ECPay\\ECPayServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TsaiYiHua\\ECPay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yihua Tsai",
+                    "email": "tsaiyihua@gmail.com"
+                }
+            ],
+            "description": "ecpay library for laravel",
+            "keywords": [
+                "ecpay",
+                "laravel",
+                "payment"
+            ],
+            "time": "2019-10-09T01:53:01+00:00"
         },
         {
             "name": "vinkla/facebook",

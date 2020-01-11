@@ -31,6 +31,7 @@
         "spatie/laravel-html": "^2.22",
         "spatie/laravel-permission": "^3.0",
         "torann/geoip": "^1.0",
+        "tsaiyihua/laravel-ecpay": "^2.1",
         "vinkla/facebook": "^4.0"
     },
     "require-dev": {
