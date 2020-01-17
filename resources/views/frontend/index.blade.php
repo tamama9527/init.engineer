@@ -10,8 +10,7 @@
                 {{-- <img class="position-fixed" style="right: 24px; max-width: 192px; bottom: 0px;z-index: 1;" src="https://upload.cc/i1/2018/11/07/7l1RGe.gif" alt="贊助吉祥物"> --}}
                 <img src="{{ asset("img/frontend/background/rlaVme5.png") }}" class="d-block w-100" alt="你是工程師嗎">
                 <div class="carousel-caption text-left mb-5 pb-5 text-dark">
-                    <h1 class="text-black-stroke display-3">純靠北工程師</h1>
-                    <p class="lead">發源自臉書──全台最大工程師廢文社群</p>
+                    <h1 class="text-black-stroke display-3">{{ app_name() }}</h1>
                     <a class="btn btn-warning btn-lg shake-slow shake-constant shake-constant--hover" href="{{ route('frontend.social.cards.create') }}" role="button">開始去發廢文 <i class="fas fa-poop"></i></a>
                 </div>
             </div>
@@ -25,17 +24,9 @@
                 {{-- <img class="position-fixed" style="right: 0px; max-width: 128px; bottom: 0px; z-index: 1;" src="https://upload.cc/i1/2018/11/07/7l1RGe.gif" alt="贊助吉祥物"> --}}
                 <img src="{{ asset("img/frontend/background/vznInUz.png") }}" class="d-block w-100" alt="你是工程師嗎">
                 <div class="carousel-caption text-left mb-5 text-dark">
-                    <h3 class="text-black-stroke">純靠北工程師</h3>
+                    <h3 class="text-black-stroke">{{ app_name()  }}</h3>
                     <a class="btn btn-warning btn-md shake-slow shake-constant shake-constant--hover" href="{{ route('frontend.social.cards.create') }}" role="button">開始去發廢文 <i class="fas fa-poop"></i></a>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid my-5 animated fadeIn">
-        <div class="row">
-            <div class="col-md-12 my-4">
-                <fake-cards></fake-cards>
             </div>
         </div>
     </div>
@@ -62,15 +53,15 @@
                     </div>
                     <div class="timeline">
                         <div class="timeline-icon"><i class="fa fa-bug"></i></div>
-                        <span class="year">2017</span>
+                        <span class="year">2014</span>
                         <div class="timeline-content">
-                            <h5 class="title animated fadeInLeft delay-1s">純靠北工程師</h5>
-                            <p class="description animated fadeInLeft delay-1s">我們很懷念最開始的那個靠北工程師，這個版將會以舊文重發的方式，重現最初的那個靠北工程師。</p>
+                            <h5 class="title animated fadeInLeft delay-1s">靠北重中</h5>
+                            <p class="description animated fadeInLeft delay-1s">我們很喜歡匿名發一些或許沒什麼意義靠北學校的文章，所以創了靠北重中</p>
                         </div>
                     </div>
                     <div class="timeline">
                         <div class="timeline-icon"><i class="fa fa-poo"></i></div>
-                        <span class="year">2019</span>
+                        <span class="year">{{ date('Y') }}</span>
                         <div class="timeline-content">
                             <h5 class="title animated fadeInRight delay-1s">你</h5>
                             <p class="description animated fadeInRight delay-1s">來到這裡發文。</p>
